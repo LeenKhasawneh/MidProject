@@ -1,0 +1,502 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.navbar{
+    padding: 0px;
+}
+.navTop{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(25, 20, 68);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.navTopA{
+    margin-left: 150px;
+    display:inline-flex;
+    align-items: center;
+    background: linear-gradient(to right, #1d3783, #091941);
+    border-radius: 300px;
+    white-space: nowrap;
+}
+.topA{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    white-space: nowrap;
+}
+.topA,
+.topA:hover,
+.topA:active,
+.topA:visited {
+    color: white;      
+}
+.spanA{
+    font-size: 15px;
+    color: yellow;
+    padding: 5px;
+    white-space: nowrap;
+}
+.login{
+    margin-left: 600px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+     font-size: 20px;
+}
+.login i{
+    margin-right: 8px;
+    font-size: 40px;
+    color: #455b9b;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+}
+.selec{
+    width: 43px;              
+    height: 43px;            
+    border-radius: 50%; 
+    padding: 2px;
+    margin-left: 50px;
+    color: white;
+    background-color: #455b9b;
+    border: none;
+}
+.selec select{
+    font-size: 300px;
+}
+.selec option{
+    border: none;
+    color: black;
+    background-color: white ;
+    align-items: center;
+    border-radius:0px 0px 20px 20px;
+    font-weight: bold;
+}
+.navBottom{ 
+    height: 60px;
+    width: 100%;   
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.navB img{
+    width: 130px;
+    position: absolute;
+    left: 10px;
+    top: -7px;
+}
+.main{
+    position: relative;
+    list-style: none;
+}
+.main-a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    padding: 10px 10px;
+    margin-left: 190px;
+}
+.main-a,
+.main-a:hover,
+.main-a:active,
+.main-a:visited {
+    color: rgb(0, 0, 0);      
+}
+.drop{
+    position: absolute;
+    padding: 15px 15px;
+    background: white;
+    margin-left: 130px;
+    display: none;
+    width: 100%;
+}
+.drop li{
+   list-style: none;
+}
+.drop a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black; 
+}
+.main:hover .drop {
+  display: block;
+}
+.navBli{
+    display: flex;
+}
+.main1{
+    position: relative;
+    list-style: none;
+}
+.main-a1{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    padding: 10px 10px;
+}
+.main-a1,
+.main-a1:hover,
+.main-a1:active,
+.main-a1:visited {
+    color: rgb(0, 0, 0);      
+}
+.drop1{
+    position: absolute;
+    padding: 15px 15px;
+    background: white;
+    margin-left: 10px;
+    display: none;
+}
+.drop1 li{
+   list-style: none;
+}
+.drop1 a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black; 
+}
+.main1:hover .drop1 {
+  display: block;
+}
+.main2{
+    position: relative;
+    list-style: none;
+}
+.main-a2{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    padding: 10px 10px;
+    margin-left: 300px;
+}
+.main-a2,
+.main-a2:hover,
+.main-a2:active,
+.main-a2:visited {
+    color: rgb(0, 0, 0);      
+}
+.drop2{
+    position: absolute;
+    padding: 15px 15px;
+    background: white;
+    margin-left: 300px;
+    display: none;
+}
+.drop2 li{
+   list-style: none;
+}
+.drop2 a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black; 
+}
+.main2:hover .drop2 {
+  display: block;
+}
+.main3{
+    position: relative;
+    list-style: none;
+}
+.main-a3{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    padding: 10px 10px;
+    margin-left: 30px;
+}
+.main-a3,
+.main-a3:hover,
+.main-a3:active,
+.main-a3:visited {
+    color: rgb(0, 0, 0);      
+}
+.line{
+    border: none;
+    height: 6px;
+    background: linear-gradient(to right,#0011aa 50%, #8b0000 50%);
+}
+
+
+.page{
+    background-image: url("https://www.fcbarcelona.com/photo-resources/2025/05/08/2676f707-0a74-479b-9173-f0f1ef8f26d3/muntatge.jpg?width=1200&height=750");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-radius:0px 0px 30px 30px; */
+    width: 100%;
+    height: 700px;
+    font-weight: bold;
+}
+.left{
+    width: 700px;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    padding:20px 50px;
+}
+.left span,
+.left h1,
+.left p{
+    padding: 7px;
+}
+.song a {
+    width: 70px;
+    padding: 13px;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: rgb(248, 33, 33);
+    border-radius: 40px;
+}
+.song p{
+    font-size: 15px;
+    padding: 0px;
+    gap: 0px;
+    margin-left: 10px;
+}
+.cars{
+    background: linear-gradient(to right, #091941, #831d1d);
+    /* background-image: url("https://wallpapers4screen.com/Uploads/18-11-2022/51486/thumb2-4k-barcelona-fc-logo-burgundy-blue-silk-fabric-spanish-football-team-barcelona-fc-emblem.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 700px;
+}
+.ptag{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+#carouselExampleIndicators {
+  width: 700px;
+  margin: 20px auto;
+  border-radius: 20px ;
+}
+#carouselExampleIndicators img {
+  height: 600px;
+  border-radius: 20px 20px;
+}
+
+/*  */
+.trencard-p{
+    /* background-image: url("https://i.pinimg.com/564x/dc/02/5d/dc025d61faf1883f81888c6b1f424448.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background: linear-gradient(to right,#831d1d ,#091941);
+}
+.title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+}
+.trencard{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap:12px;
+}
+.card{
+    width: 300px;
+    background: linear-gradient(to right, #183479, #831d1d);
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.cardname{
+    color: white;
+}
+.cardinfo{
+    display:flex ;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cardinfo i{
+    color: white;
+}
+.cardimg{
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.footer-container{
+    background: linear-gradient(to right, #091941, #831d1d);
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.footer-box{
+    width: 300px;
+    margin: 10px;
+}
+
+.footer-box h3{
+    color: #ffd700;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.footer-box p{
+    font-size: 14px;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+.footer-box ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-box ul li{
+    margin-bottom: 8px;
+}
+
+.footer-box ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-box ul li a:hover{
+    color: #ffd700;
+}
+
+.footer-social a{
+    color: white;
+    font-size: 22px;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.footer-social a:hover{
+    color: #ffd700;
+}
+
+.footer-bottom{
+    background: linear-gradient(to right, #091941, #831d1d);
+    text-align: center;
+    padding: 15px;
+    background-color: #050c24;
+    font-size: 13px;
+    color: #cccccc;
+}
+
+
+
+/* MOBILE */
+@media  screen and  (max-width: 768px) {
+  .navTop{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: auto;
+  }
+
+  .navTopA{
+    margin-left: 0;
+    scale: 0.9;
+  }
+
+  .login{
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  .login i{
+    font-size: 28px;
+  }
+
+  .selec{
+    margin-left: 10px;
+  }
+  .navBottom{
+    overflow-x: auto;
+    white-space: nowrap;
+    height: auto;
+  }
+
+  .navB img{
+    position: sticky;
+    left: 0;
+    background: white;
+    z-index: 5;
+  }
+
+  .navBli{
+    display: inline-block;
+  }
+
+  .main-a,
+  .main-a1,
+  .main-a2,
+  .main-a3{
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  .drop,
+  .drop1,
+  .drop2{
+    position: absolute;
+    width: 220px;
+    z-index: 10;
+  }
+  .page{
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  .left{
+    width: 100%;
+    padding: 20px;
+  }
+  #carouselExampleIndicators{
+    width: 95%;
+  }
+
+  #carouselExampleIndicators img{
+    height: 590px;
+  }
+  .trencard{
+    padding: 10px;
+    grid-template-columns: auto auto auto; 
+  }
+
+  .card{
+    width: 100%;
+    margin-left: 0;
+  }
+  .footer-container{
+    text-align: center;
+  }
+
+}
+
+
